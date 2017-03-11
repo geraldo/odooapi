@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-import xmlrpclib, httplib
+import xmlrpclib
 from odooapp.proxy import *
 
 url = "https://demo3.odoo.com"
