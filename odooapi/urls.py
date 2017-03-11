@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
 	url(r'^odooapp/', include('odooapp.urls')),
+	url(r'^odooapp2/', include('odooapp2.urls')),
     url(r'^admin/', admin.site.urls),
 ]
